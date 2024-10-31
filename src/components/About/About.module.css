@@ -2,64 +2,73 @@
 
 .container {
     position: relative;
-    background-color: rgba(12, 12, 12, 0.6);
-    border-radius: 15px;
-    padding: 73px;
-    margin-top: 129px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 100px 200px;
+    margin-top: 0;
     z-index: 1;
-    margin-left: 10%;
-    margin-right: 10%;
+    text-align: center;
 }
 
 .title {
-    color: var(--color-text);
-    font-size: 35px;
+    color: var(--color3);
+    font-size: 50px;
     font-weight: 700;
     letter-spacing: 1.75px;
-    text-transform: uppercase;
+    text-transform: lowercase;
+    margin-bottom: 20px;
 }
 
 .content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* background-color: var(--color2); */
+    border-radius: 50px;
+    padding: 50px;
+    /* border: 20px solid;
+    border-color: var(--color4); */
+    color: var(--color1);
 }
+
+.content h3 {
+    color: var(--color2);
+    font-size: 42px;
+    /* padding-right: 100px;  */
+}
+
+.content p {
+    font-size: 36px;
+    /* padding-right: 100px; */
+}
+
+/* .aboutImg {
+    width: 30%;
+    background-color: var(--color2-1);
+    border-radius: 500px;
+} */
 
 .aboutImg {
-    width: 35%;
-}
-
-.aboutItems {
-    color: var(--color-text);
+    width: 300px;
+    height: 300px;
+    background-color: var(--color2-1);
+    border-radius: 50%;
+    overflow: hidden;
     display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
-
-.aboutItem {
-    display: flex;
-    flex-direction: row;
     align-items: center;
-    border-radius: 20px;
-    list-style: none;
-    padding: 25px;
-    background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
-    background-size: 0 100%;
-    background-repeat: no-repeat;
-    transition: 0.4s;
+    justify-content: center;
+    padding: 25px 25px 0px 25px;
 }
 
-.aboutItem:hover {
-    background-size: 100% 100%;
-}
-
-.aboutItem h3 {
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.aboutItem p {
-    font-size: 25px;
+.aboutImg img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 830px) {

@@ -5,23 +5,13 @@ import styles from "./Hero.module.css";
 
 export const Hero = () => {
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id="home">
             <div className={styles.content}>
-                <h1 className={styles.title}>Hi, I'm Shaima</h1>
+                <h1 className={styles.title}>Shaima Hussaini</h1>
                 <p className={styles.description}>
-                    I'm a developer with 5 years of experience using React and NodeJS. Reach out if you'd like to learn more!
+                    Welcome to my portfolio!
                 </p>
-                <a href="mailto:shaima.hussaini@gmail.com" className={styles.contactBtn}>
-                    Contact Me
-                </a>
             </div>
-            <img 
-                src={getImageUrl("hero/heroImage.png")} 
-                alt="Hero image of me" 
-                className={styles.heroImg}
-            />
-            <div className={styles.topBlur}/>
-            <div className={styles.bottomBlur}/>
         </section>
     );
 };

@@ -6,6 +6,15 @@
     --color-dark: #0b2447;
     --color-bg: #04152d;
 
+    --color1: #888888;
+    --color1-1: #f4f4f4;
+    --color2: #2D6679;
+    --color2-1: #132d35;
+    --color3: #914666;
+    --color4: #a1b786;
+    --color4-1: rgba(161, 183, 134, 0.2);
+
     /* fonts */
     --font-roboto: "Roboto"
+    --font-bricolage: "Bricolage Grotesque", sans-serif;
 }

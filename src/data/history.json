@@ -1,29 +1,28 @@
 [
     {
-      "role": "Software Engineer",
-      "organization": "Google",
-      "startDate": "Sept, 2022",
-      "endDate": "Present",
-      "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-      "imageSrc": "history/google.png"
+      "role": "Data Engineer Intern",
+      "organization": "Toyota Connected North America, Inc.",
+      "startDate": "May 2023",
+      "endDate": "Aug. 2023",
+      "experiences": ["Developed and deployed remote diagnostics system", "Built Datadog monitors and developed automation tests"],
+      "imageSrc": "history/tcna.png"
     },
     {
-      "role": "UI Designer",
-      "organization": "Microsoft",
-      "startDate": "Aug, 2021",
-      "endDate": "Aug, 2022",
-      "experiences": ["Worked on Windows 11", "Designed the control panel"],
-      "imageSrc": "history/microsoft.png"
+      "role": "Bioinformatics Program Fellow",
+      "organization": "Research Foundation of SUNY",
+      "startDate": "Jun. 2022",
+      "endDate": "Aug. 2022",
+      "experiences": ["Developed pipeline to model RNA structure", "Used R for gene expression analysis"],
+      "imageSrc": "history/sunyrf.jpeg"
     },
     {
-      "role": "SWE Intern",
-      "organization": "Netflix",
-      "startDate": "Apr, 2020",
-      "endDate": "Jun, 2020",
+      "role": "Undergraduate Research Assistant",
+      "organization": "Research Foundation of SUNY",
+      "startDate": "May 2022",
+      "endDate": "Aug. 2022",
       "experiences": [
-        "Worked on component library",
-        "Helped create UI components"
+        "Developed program to analyze mass spectrometry experiments"
       ],
-      "imageSrc": "history/netflix.png"
+      "imageSrc": "history/sunyrf.jpeg"
     }
   ]

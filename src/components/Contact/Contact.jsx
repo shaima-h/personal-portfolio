@@ -7,30 +7,35 @@ export const Contact = () => {
     return (
         <footer id="contact" className={styles.container}>
             <div className={styles.text}>
-                <h2>Contact</h2>
-                <p>Feel free to reach out!</p>
+                <h2>contact</h2>
             </div>
             <ul className={styles.links}>
                 <li className={styles.link}>
-                    <img
-                        src={getImageUrl("contact/emailIcon.png")}
-                        alt="Email icon"
-                    />
-                    <a href="mailto:shaima.hussaini@gmail.com">shaima.hussaini@gmail.com</a>
+                    <a href="mailto:shaima.hussaini@gmail.com">
+                        <img
+                            src={getImageUrl("contact/emailIcon.png")}
+                            alt="Email icon"
+                        />
+                        shaima.hussaini@gmail.com
+                    </a>
                 </li>
                 <li className={styles.link}>
-                    <img
-                        src={getImageUrl("contact/linkedinIcon.png")}
-                        alt="LinkedIn icon"
-                    />
-                    <a href="https://www.linkedin.com/in/shaimahussaini">linkedin.com/in/shaimahussaini</a>
+                    <a href="https://www.linkedin.com/in/shaimahussaini" target="_blank" rel="noopener noreferrer">
+                        <img
+                            src={getImageUrl("contact/linkedinIcon.png")}
+                            alt="LinkedIn icon"
+                        />
+                        linkedin.com/in/shaimahussaini
+                    </a>
                 </li>
                 <li className={styles.link}>
-                    <img
-                        src={getImageUrl("contact/githubIcon.png")}
-                        alt="Github icon"
-                    />
-                    <a href="https://www.github.com/shaima-h">github.com/shaima-h</a>
+                    <a href="https://www.github.com/shaima-h" target="_blank" rel="noopener noreferrer">
+                        <img
+                            src={getImageUrl("contact/githubIcon.png")}
+                            alt="Github icon"
+                        />
+                        github.com/shaima-h
+                    </a>
                 </li>
             </ul>
         </footer>

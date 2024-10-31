@@ -4,35 +4,50 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 49px;
+    justify-content: center;
     z-index: 1;
-    margin-left: 10%;
-    margin-right: 10%;
+
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+
+    background-image: url("../../../assets/hero/heroBackground.jpg"); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    color: var(--color-text);
+    align-items: center;
     z-index: 1;
 }
 
 .title {
-    font-size: 70px;
+    font-size: 100px;
     font-weight: 900;
     margin-bottom: 33px;
-    font-family: var(--font-roboto);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 120%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    font-family: var(--font-bricolage);
+    color: white;
 }
 
 .description {
-    font-size: 30px;
+    font-size: 50px;
     font-family: var(--font-roboto);
     margin-bottom: 52px;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .contactBtn {
@@ -84,20 +99,6 @@
     z-index: 0;
 }
 
-.topBlur {
-    position: absolute;
-    width: 70vw;
-    height: 50vw;
-    min-width: 350px;
-    min-height: 250px;
-    top: 246px;
-    right: -25vw;
-    border-radius: 764px;
-    background: rgba(25, 55, 109, 0.7);
-    filter: blur(100px);
-    z-index: 0;
-}
-
 @media screen and (max-width: 830px) {
     .container {
         flex-direction: column-reverse;
@@ -105,5 +106,15 @@
 
     .content {
         align-items: center;
+    }
+
+    .title {
+        font-size: 50px;
+        display: block;
+    }
+    
+    .description {
+        font-size: 20px;
+        display: block;
     }
 }

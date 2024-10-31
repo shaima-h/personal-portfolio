@@ -1,26 +1,50 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
+      "title": "Analytic Features for IQEngine",
+      "imageSrc": "projects/iqengine.png",
+      "description": "Developed unsupervised learning transmitter detection tool, 3D visualization feature, and fusion techniques to analyze spectrum data for the IQEngine platform.",
+      "skills": ["Python", "FastAPI", "React"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://github.com/shaima-h/IQEngine"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
+      "title": "Handwritten Text Recognition",
+      "imageSrc": "projects/htr.png",
+      "description": "Implemented the HTR system by Arthur Flor that recognizes handwritten text using Python and TensorFlow. Trained on an offline dataset and added image preprocessing to improve results.",
+      "skills": ["Python", "TensorFlow"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://github.com/casperious/HandwritingReader"
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
+      "title": "Book Recommendations",
+      "imageSrc": "projects/bookrecs.webp.png",
+      "description": "Built a search engine and system that makes book recommendations to the user based on their liked books.",
+      "skills": ["Python", "Pandas", "NumPy"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://github.com/shaima-h/book-recommendations"
+    },
+    {
+      "title": "Programming Language Interpreter",
+      "imageSrc": "projects/prog.jpg.avif",
+      "description": "Developed a lexer that generates tokens using a state machine, a parser that processes the tokens and returns an abstract syntax tree, and an interpreter that executes functions.",
+      "skills": ["Java"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/shaima-h/programming-language-interpreter"
+    },
+    {
+      "title": "MassSpecAnalysis",
+      "imageSrc": "projects/massspec.png.avif",
+      "description": "Developed a Java program that compares data generated from mass spectrometry experiments to the lab's database with various parameters set by the user from a GUI.",
+      "skills": ["Java", "Java Swing", "Apache POI"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/shaima-h/mass-spec-analysis"
+    },
+    {
+      "title": "Web Portfolio",
+      "imageSrc": "projects/webportfolio.png",
+      "description": "My responsive, personal website to showcase myself and my project.",
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "demo": "https://www.example.com",
+      "source": "http://shaima-h.github.io/"
     }
   ]
