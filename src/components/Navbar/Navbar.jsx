@@ -15,16 +15,24 @@ export const Navbar = () => {
     return (
         <nav className={styles.navbar}>
             <div className={styles.menu}>
-                <img 
+                <div 
                     className={styles.menuBtn} 
-                    src={
-                        menuOpen 
-                        ? getImageUrl("nav/closeIcon.png") 
-                        : getImageUrl("nav/menuIcon.png")
-                    } 
-                    alt="menu-button"
                     onClick={() => setMenuOpen(!menuOpen)}
-                />
+                >
+                    {!menuOpen ? (
+                        <div className={styles.hamburgerMenu}>
+                            <span className={styles.bar}></span>
+                            <span className={styles.bar}></span>
+                            <span className={styles.bar}></span>
+                        </div>
+                    ) : (
+                        <div className={styles.closeMenu}>
+                            <span className={styles.firstBar}></span>
+                            <span className={styles.secBar}></span>
+                        </div>
+                    )}
+                </div>
+
                 <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
                     {["Home", "About", "Experience", "Projects", "Contact"].map((text, index) => {
                         const href = `#${text.toLowerCase()}`;

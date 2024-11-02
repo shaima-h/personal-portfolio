@@ -66,5 +66,8 @@
     .links {
         align-items: center;
     }
-    
+
+    .link a {
+        font-size: 24px;
+    }
 }

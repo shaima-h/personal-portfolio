@@ -109,12 +109,14 @@
     }
 
     .title {
-        font-size: 50px;
+        font-size: 80px;
         display: block;
+        text-align: center;
     }
     
     .description {
-        font-size: 20px;
+        font-size: 40px;
         display: block;
+        text-align: center;
     }
 }

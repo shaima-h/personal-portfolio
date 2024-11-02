@@ -36,7 +36,7 @@ export const Experience = () => {
                         })
                     }
                 </ul>
-                <h2 className={styles.title}>Skills</h2>
+                <h2 className={styles.skillsTitle}>Skills</h2>
                 <div className={styles.skills}>
                     {skills.map((skill, id) => {
                         return  (

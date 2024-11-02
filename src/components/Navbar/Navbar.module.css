@@ -46,9 +46,8 @@
 
 .menuBtn {
     display: none;
-  }
+}
   
-
 .menu {
     display: flex;
 }
@@ -113,6 +112,7 @@
     .menuBtn {
         display: block;
         cursor: pointer;
+        z-index: 4;
     }
 
     .menuItems {
@@ -124,10 +124,54 @@
         background: white;
         padding: 24px 33px;
         box-shadow: 0 0 4px 0 rgb(0, 0, 0, 0.25);
+        margin-top: 230px;
     }
 
     .menuOpen {
         display: flex;
         z-index: 1;
+    }
+
+    .hamburgerMenu {
+        position: relative;
+        z-index: 4;
+    }
+
+    .bar {
+        display: block;
+        width: 40px;
+        height: 6px;
+        margin: 6px auto;
+        border-radius: 3px;
+        transition: all 0.3s ease-in-out;
+        background-color: var(--color2-1);
+    }
+
+    .closeMenu {
+        position: relative;
+        z-index: 4;
+        width: 40px;
+        height: 40px;
+        top: 12px;
+    }
+
+    .firstBar, .secBar{
+        display: block;
+        width: 100%;
+        height: 6px;
+        /* margin: 6px auto; */
+        border-radius: 3px;
+        background-color: var(--color2-1);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .firstBar {
+        margin: 6px auto;
+        transform: rotate(45deg);
+    }
+    
+    .secBar {
+        margin: -12px auto;
+        transform: rotate(-45deg);
     }
 }
