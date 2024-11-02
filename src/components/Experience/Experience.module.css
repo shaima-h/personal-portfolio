@@ -19,6 +19,22 @@
     text-align: center;
 }
 
+.resumeBtn {
+    display: flex;
+    justify-content: center; /* Centers resumeBtn horizontally */
+}
+
+.resumeLink {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 100px;
+    background: var(--color2);
+    padding: 8px 22px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
 .content {
     display: flex;
     flex-direction: column;
@@ -60,16 +76,20 @@
     font-size: 32px;
     font-weight: 500;
     color: var(--color2);
+    margin-bottom: 5px;
 }
 
 .historyItemDetails h4 {
     font-size: 26px;
     font-weight: 500;
+    margin-bottom: 5px;
 }
 
 .historyItemDetails p {
     font-size: 20px;
     font-weight: 300;
+    margin-bottom: 12px;
+    font-style: italic;
 }
 
 .historyItemDetails ul {
@@ -139,17 +159,36 @@
         font-size: 50px;
     }
 
+    .resumeLink {
+        font-size: 24px;
+    }
+
     .history {
         width: 100%;
         gap: 15px;
     }
-
 
     .historyItem {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 75px;
+    }
+
+    .historyItemDetails h3 {
+        font-size: 28px;
+    }
+    
+    .historyItemDetails h4 {
+        font-size: 22px;
+    }
+    
+    .historyItemDetails p {
+        font-size: 16px;
+    }
+    
+    .historyItemDetails ul {
+        font-size: 22px;
     }
 
     .skillsTitle {

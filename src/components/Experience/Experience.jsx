@@ -10,6 +10,15 @@ export const Experience = () => {
         <section className={styles.container} id="experience">
             <h2 className={styles.title}>Experience</h2>
             <div className={styles.content}>
+                <div className={styles.resumeBtn}>
+                    <a 
+                        className={styles.resumeLink}
+                        href="https://drive.google.com/file/d/1BNnWwlQdxRj2ynpa2B0gGGzTV0mrXJ8g/view?usp=sharing"
+                        target="_blank" rel="noopener noreferrer"
+                    >
+                        View Full Resume
+                    </a>
+                </div>
                 <ul className={styles.history}>
                     {
                         history.map((historyItem, id) => {
