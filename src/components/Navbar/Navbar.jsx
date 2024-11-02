@@ -33,23 +33,6 @@ export const Navbar = () => {
                     )}
                 </div>
 
-                {/* <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
-                    {["Home", "About", "Experience", "Projects", "Contact"].map((text, index) => {
-                        const href = `#${text.toLowerCase()}`;
-                        return (
-                            <li key={index}>
-                                <a
-                                    href={href}
-                                    className={`${styles.menuLink} ${activeLink === href ? styles.active : ""}`}
-                                    onClick={() => handleLinkClick(href)}
-                                >
-                                    {text}
-                                </a>
-                            </li>
-                        );
-                    })}
-                </ul> */}
-
                 <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
                     <li>
                         <Link 
