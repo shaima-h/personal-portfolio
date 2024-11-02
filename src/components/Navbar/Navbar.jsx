@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 
 import styles from "./Navbar.module.css";
-import {getImageUrl} from "../../utils"
+import { Link, Element } from 'react-scroll';
 
 export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -33,7 +33,7 @@ export const Navbar = () => {
                     )}
                 </div>
 
-                <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
+                {/* <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
                     {["Home", "About", "Experience", "Projects", "Contact"].map((text, index) => {
                         const href = `#${text.toLowerCase()}`;
                         return (
@@ -48,6 +48,34 @@ export const Navbar = () => {
                             </li>
                         );
                     })}
+                </ul> */}
+
+                <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
+                    <li>
+                        <Link className={styles.menuLink} activeClass={styles.active} to="home" spy={true} duration={500} onClick={() => setMenuOpen(!menuOpen)}>
+                            Home
+                        </Link>
+                    </li>
+                    <li>
+                        <Link className={styles.menuLink} activeClass={styles.active} to="about" spy={true} duration={500} onClick={() => setMenuOpen(!menuOpen)}>
+                            About
+                        </Link>
+                    </li>
+                    <li>
+                        <Link className={styles.menuLink} activeClass={styles.active} to="experience" spy={true} duration={500} onClick={() => setMenuOpen(!menuOpen)}>
+                            Experience
+                        </Link>
+                    </li>
+                    <li>
+                        <Link className={styles.menuLink} activeClass={styles.active} to="projects" spy={true} duration={500} onClick={() => setMenuOpen(!menuOpen)}>
+                            Projects
+                        </Link>
+                    </li>
+                    <li>
+                        <Link className={styles.menuLink} activeClass={styles.active} to="contact" spy={true} duration={500} offset={-500} onClick={() => setMenuOpen(!menuOpen)}>
+                            Contact
+                        </Link>
+                    </li>
                 </ul>
             </div>
         </nav>

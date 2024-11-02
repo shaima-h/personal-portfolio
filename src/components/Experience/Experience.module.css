@@ -9,8 +9,9 @@
 }
 
 .title {
+    font-family: var(--font-bricolage);
     color: var(--color3);
-    font-size: 50px;
+    font-size: 64px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: lowercase;
@@ -52,7 +53,7 @@
 }
 
 .historyItemDetails {
-    font-family: var(--font-roboto);
+    /* font-family: var(--font-roboto); */
 }
 
 .historyItemDetails h3 {
@@ -80,8 +81,9 @@
 }
 
 .skillsTitle {
+    font-family: var(--font-bricolage);
     color: var(--color2);
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: lowercase;
@@ -122,7 +124,7 @@
 
 .skill p {
     font-size: 25px;
-    font-family: var(--font-roboto);
+    /* font-family: var(--font-roboto); */
     font-weight: 500;
 }
 

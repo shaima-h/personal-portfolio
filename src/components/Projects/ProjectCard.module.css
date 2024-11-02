@@ -24,6 +24,7 @@
 }
 
 .title {
+    font-family: var(--font-bricolage);
     font-size: 32px;
     font-weight: 700;
     text-align: center;
