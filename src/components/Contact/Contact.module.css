@@ -11,7 +11,7 @@
     padding: 58px 10% 400px;
     gap: 10px;
     min-height: 90vh;
-    background-image: url("../../../assets/hero/heroBackground.jpg"); /* Replace with your image path */
+    background-image: url("../../../assets/hero/heroBackground2.jpg"); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -106,7 +106,7 @@
 @media screen and (max-width: 830px) {
     .container {
         flex-direction: column;
-        gap: 23px;
+        gap: 10px;
     }
 
     .text {
@@ -115,12 +115,26 @@
         align-items: center;
     }
 
+    .text h2 {
+        margin-bottom: 20%;
+    }
+
     .links {
         align-items: flex-start;
         text-align: left;
     }
 
+    .link {
+        margin-bottom: 0px;
+    }
+
     .link a {
-        font-size: 24px;
+        font-size: 20px;
+        gap: 9px;
+    }
+
+    .link img {
+        width: 24px;
+        height: auto;
     }
 }

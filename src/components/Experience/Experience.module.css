@@ -135,6 +135,10 @@
         gap: 34px;
     }
 
+    .title {
+        font-size: 50px;
+    }
+
     .history {
         width: 100%;
         gap: 15px;
@@ -148,9 +152,9 @@
         gap: 75px;
     }
 
-    /* .historyItem img {
-        width: 130px;
-    } */
+    .skillsTitle {
+        font-size: 35px;
+    }
 
     .skills {
         width: 100%;

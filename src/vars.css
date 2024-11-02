@@ -16,5 +16,5 @@
 
     /* fonts */
     --font-roboto: "Roboto";
-    --font-bricolage: "Bricolage Grotesque";
+    --font-bricolage: "Bricolage Grotesque", "sans-serif";
 }
