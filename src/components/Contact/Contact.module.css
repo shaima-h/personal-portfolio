@@ -10,7 +10,7 @@
     width: 100vw;
     padding: 58px 10% 400px;
     gap: 10px;
-    /* min-height: 80vh; */
+    min-height: 90vh;
     background-image: url("../../../assets/hero/heroBackground.jpg"); /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -20,7 +20,7 @@
 
 .container > * {
     position: relative; /* Set the content's position to relative */
-    z-index: 2; /* Ensure content appears above the overlay */
+    z-index: 1; /* Ensure content appears above the overlay */
 }
 
 .container::before {
