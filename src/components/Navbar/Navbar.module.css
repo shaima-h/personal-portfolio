@@ -72,6 +72,7 @@
     text-decoration: none;
     position: relative;
     padding: 10px;
+    text-align: center;
 }
 
 .menuLink.active {
@@ -125,7 +126,8 @@
         background: white;
         padding: 24px 33px;
         box-shadow: 0 0 4px 0 rgb(0, 0, 0, 0.25);
-        margin-top: 230px;
+        margin-top: 50px;
+        position: absolute;
     }
 
     .menuOpen {
