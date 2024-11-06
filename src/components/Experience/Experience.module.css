@@ -173,6 +173,11 @@
         flex-direction: column;
         align-items: center;
         gap: 75px;
+        padding: 40px;
+    }
+
+    .historyItemDetails {
+        margin-top: -25px;
     }
 
     .historyItemDetails h3 {
