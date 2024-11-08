@@ -43,8 +43,8 @@
       "title": "Web Portfolio",
       "imageSrc": "projects/webportfolio.png",
       "description": "My responsive, personal website to showcase myself and my project.",
-      "skills": ["HTML", "CSS", "JavaScript"],
+      "skills": ["HTML", "CSS", "React"],
       "demo": "https://www.example.com",
-      "source": "http://shaima-h.github.io/"
+      "source": "https://shaimahussaini.netlify.app"
     }
   ]
