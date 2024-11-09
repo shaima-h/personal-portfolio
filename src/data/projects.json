@@ -45,6 +45,6 @@
       "description": "My responsive, personal website to showcase myself and my project.",
       "skills": ["HTML", "CSS", "React"],
       "demo": "https://www.example.com",
-      "source": "https://shaimahussaini.netlify.app"
+      "source": "https://github.com/shaima-h/personal-portfolio"
     }
   ]
