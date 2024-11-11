@@ -13,7 +13,7 @@ export const Experience = () => {
                 <div className={styles.resumeBtn}>
                     <a 
                         className={styles.resumeLink}
-                        href="https://drive.google.com/file/d/1BNnWwlQdxRj2ynpa2B0gGGzTV0mrXJ8g/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1CcMII5zSRG3yKYkPzQpDbnTxowV4dcho/view?usp=sharing"
                         target="_blank" rel="noopener noreferrer"
                     >
                         View Full Resume

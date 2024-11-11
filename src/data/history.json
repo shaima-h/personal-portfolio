@@ -8,8 +8,8 @@
       "imageSrc": "history/tcna.png"
     },
     {
-      "role": "Bioinformatics Program Fellow",
-      "organization": "Research Foundation of SUNY",
+      "role": "Bioinformatics Research Fellow",
+      "organization": "The Research Foundation for SUNY",
       "startDate": "Jun. 2022",
       "endDate": "Aug. 2022",
       "experiences": ["Developed pipeline to model RNA structure", "Used R for gene expression analysis"],
@@ -17,7 +17,7 @@
     },
     {
       "role": "Undergraduate Research Assistant",
-      "organization": "Research Foundation of SUNY",
+      "organization": "The Research Foundation for SUNY",
       "startDate": "May 2022",
       "endDate": "Aug. 2022",
       "experiences": [
