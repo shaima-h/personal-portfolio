@@ -8,6 +8,15 @@
       "source": "https://github.com/shaima-h/IQEngine"
     },
     {
+      "title": "Freelance Web Development",
+      "imageSrc": "projects/safsouf.png",
+      "description": "Designed and developed a custom website for a photography business, showcasing their services and portfolio.",
+      "skills": ["WordPress", "Elementor", "UI Design"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/casperious/HandwritingReader",
+      "projectPageURL": "freelance-web-dev"
+    },
+    {
       "title": "Handwritten Text Recognition",
       "imageSrc": "projects/htr.png",
       "description": "Implemented the HTR system by Arthur Flor that recognizes handwritten text using Python and TensorFlow. Trained on an offline dataset and added image preprocessing to improve results.",
