@@ -17,14 +17,14 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={
-            <>
+            <div className={styles.App}>
               <Navbar/>
               <Hero />
               <About />
               <Experience />
               <Projects />
               <Contact />
-            </>
+            </div>
           } />
         <Route path="/projects/freelance-web-dev" element={<WebDev/>}/>
       </Routes>
