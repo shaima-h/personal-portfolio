@@ -18,16 +18,18 @@ export const WebDev = () => {
             </div>
             <h2 className={styles.title}>freelance web development</h2>
             <div className={styles.content}>
-                <div className={styles.desc}>
+                <div className={styles.descContainer}>
                     <p>
                         This website was created for a client who specializes in wedding and adventure photography. It was built using WordPress for a customized, user-friendly design that showcases their stunning portfolio and services.
                     </p>
                 </div>
-                <img className={styles.vid} src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmhqdmg2NXNodjJja3RwaWFna3EyNmZpNXlveWRwYTkwaWVwN3QzZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/n4Q1XyZMwdyGeqJq1S/giphy.gif"></img>
-                {/* <video className={styles.vid} controls autoplay muted loop>
-                    <source src={getImageUrl("project-pages/safsouf_laptop.mp4")} type="video/mp4"/>
-                    Your browser does not support the video tag.
-                </video> */}
+                <div className={styles.vidContainer}>
+                    <img className={styles.vid} src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmhqdmg2NXNodjJja3RwaWFna3EyNmZpNXlveWRwYTkwaWVwN3QzZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/n4Q1XyZMwdyGeqJq1S/giphy.gif"></img>
+                    {/* <video className={styles.vid} controls autoplay muted loop>
+                        <source src={getImageUrl("project-pages/safsouf_laptop.mp4")} type="video/mp4"/>
+                        Your browser does not support the video tag.
+                    </video> */}
+                </div>
             </div>
             <div className={styles.images}>
                     <img 
