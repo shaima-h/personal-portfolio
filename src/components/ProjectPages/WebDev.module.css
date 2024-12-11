@@ -61,10 +61,6 @@
     gap: 30px;
     font-size: 30px;
 }
-/* 
-.desc p {
-    padding-bottom: 5px;
-} */
 
 .vid {
     width: 250%;
@@ -84,4 +80,31 @@
     width: 70%;
     height: auto;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 830px) {
+
+    .container {
+        padding: 20px;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 34px;
+        padding: 60px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .desc {
+        padding: 10px;
+    }
+
+    .vid {
+        width: 130%;
+        order: -1;
+    }
 }
