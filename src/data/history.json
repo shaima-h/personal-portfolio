@@ -1,18 +1,18 @@
 [
     {
-      "role": "Data Engineer Intern",
+      "role": "Software Engineer Intern",
       "organization": "Toyota Connected North America, Inc.",
       "startDate": "May 2023",
       "endDate": "Aug. 2023",
-      "experiences": ["Developed and deployed remote diagnostics system", "Built Datadog monitors and developed automation tests"],
+      "experiences": ["Developed cloud-based remote diagnostics system using AWS", "Contributed to Java-based codebase", "Developed automation tests and built monitors for performance analysis"],
       "imageSrc": "history/tcna.png"
     },
     {
       "role": "Bioinformatics Research Fellow",
       "organization": "The Research Foundation for SUNY",
-      "startDate": "Jun. 2022",
+      "startDate": "June 2022",
       "endDate": "Aug. 2022",
-      "experiences": ["Developed pipeline to model RNA structure", "Used R for gene expression analysis"],
+      "experiences": ["Developed Python-based pipeline to model RNA structure", "Used R for gene expression analysis"],
       "imageSrc": "history/sunyrf.jpeg"
     },
     {
@@ -21,7 +21,7 @@
       "startDate": "May 2022",
       "endDate": "Aug. 2022",
       "experiences": [
-        "Developed program to analyze mass spectrometry experiments"
+        "Developed program to analyze data from mass spectrometry experiments"
       ],
       "imageSrc": "history/sunyrf.jpeg"
     }
