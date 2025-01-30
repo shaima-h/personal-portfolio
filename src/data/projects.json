@@ -25,6 +25,14 @@
       "source": "https://github.com/casperious/HandwritingReader"
     },
     {
+      "title": "COVID-19 Data Analysis",
+      "imageSrc": "projects/covid.png",
+      "description": "Developed a Tableau dashboard to visualize global trends in vaccination rates and COVID-19 death data.",
+      "skills": ["PostgreSQL", "Tableau", "Excel"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/shaima-h/covid-data-analysis/tree/main"
+    },
+    {
       "title": "Book Recommendations",
       "imageSrc": "projects/bookrecs.webp.png",
       "description": "Built a search engine and system that makes book recommendations to the user based on their liked books.",
