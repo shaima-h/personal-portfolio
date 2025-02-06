@@ -8,6 +8,14 @@
       "source": "https://github.com/shaima-h/IQEngine"
     },
     {
+      "title": "IntelliNotes",
+      "imageSrc": "projects/intellinotes.png",
+      "description": "Developed web app that generates notes for YouTube videos, powered by GPT-4o, to quickly extract the summary, key takeaways, and action items.",
+      "skills": ["OpenAI", "Python", "FastAPI", "HTML/CSS/JS"],
+      "demo": "https://www.example.com",
+      "source": "https://intellinotes-ai.netlify.app"
+    },
+    {
       "title": "Freelance Web Development",
       "imageSrc": "projects/safsouf.png",
       "description": "Designed and developed a custom website for a photography business, showcasing their services and portfolio.",
