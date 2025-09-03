@@ -1,5 +1,13 @@
 [
     {
+      "role": "Technical Product Support Specialist ",
+      "organization": "Bubble, Inc.",
+      "startDate": "Apr. 2025",
+      "endDate": "Present",
+      "experiences": ["Provide expert guidance on Bubble’s full-stack no-code platform for web and mobile development, supporting clients from startups to enterprises", "Serve as a technical liaison by translating complex user issues into clear, actionable insights for internal teams"],
+      "imageSrc": "history/bubble.png"
+    },
+    {
       "role": "Software Engineer Intern",
       "organization": "Toyota Connected North America, Inc.",
       "startDate": "May 2023",
